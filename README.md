@@ -57,19 +57,19 @@ The Guest PC used static address `192.168.40.50/24` during final wireless securi
 ## Evidence
 
 ### VLAN Segmentation
-![VLAN segmentation](screenshots/vlan-segmentation.png)
+![VLAN segmentation](vlan-segmentation.png)
 
 ### Router Interfaces
-![Router interfaces](screenshots/router-interfaces.png)
+![Router interfaces](router-interfaces.png)
 
 ### Authorized Internal Traffic
-![Authorized traffic](screenshots/authorized-traffic.png)
+![Authorized traffic](authorized-traffic.png)
 
 ### Guest Isolation ACL
-![ACL verification](screenshots/acl-verification.png)
+![ACL verification](acl-verification.png)
 
 ### Blocked Guest Access
-![Blocked guest access](screenshots/guest-access-blocked.png)
+![Blocked guest access](guest-access-blocked.png)
 
 ## Security Concepts Demonstrated
 
