@@ -1,0 +1,8 @@
+ip access-list extended GUEST_ISOLATION
+ deny ip 192.168.40.0 0.0.0.255 192.168.10.0 0.0.0.255
+ deny ip 192.168.40.0 0.0.0.255 192.168.20.0 0.0.0.255
+ deny ip 192.168.40.0 0.0.0.255 192.168.30.0 0.0.0.255
+ permit ip 192.168.40.0 0.0.0.255 any
+
+interface GigabitEthernet0/0.40
+ ip access-group GUEST_ISOLATION in

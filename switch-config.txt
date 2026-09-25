@@ -1,0 +1,37 @@
+hostname STADIUM-SW1
+
+vlan 10
+ name CORPORATE
+vlan 20
+ name TICKETING_POS
+vlan 30
+ name SECURITY_CCTV
+vlan 40
+ name GUEST_WIFI
+
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+
+interface FastEthernet0/2
+ switchport mode access
+ switchport access vlan 20
+
+interface FastEthernet0/3
+ switchport mode access
+ switchport access vlan 30
+
+interface FastEthernet0/4
+ switchport mode access
+ switchport access vlan 20
+
+interface FastEthernet0/5
+ switchport mode access
+ switchport access vlan 30
+
+interface FastEthernet0/6
+ switchport mode access
+ switchport access vlan 40
+
+interface GigabitEthernet0/1
+ switchport mode trunk
